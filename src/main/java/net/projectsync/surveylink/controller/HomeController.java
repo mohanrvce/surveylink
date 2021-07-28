@@ -11,5 +11,11 @@ public class HomeController {
 	public String main() {
 		return "hello, world";
 	}
+	
+	@RequestMapping(value = "/message", method = RequestMethod.GET)
+	public String getMessage() {
+		return "hello, mohan";
+	}	
 
 }
+
