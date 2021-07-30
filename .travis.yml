@@ -6,7 +6,8 @@ sudo: false
 
 # before_install: cd src
   
-script: mvn clean verify 
+# script: mvn clean verify 
+script: HEROKU_API_KEY="$HEROKU_API_KEY" mvn clean verify -Pheroku
 
 # publish code coverage after successful build
 after_success:
