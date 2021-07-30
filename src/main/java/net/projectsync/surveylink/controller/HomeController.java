@@ -21,6 +21,11 @@ public class HomeController {
 	public String getSupport() {
 		return "Website under contruction...";
 	}
+	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String getSupport() {
+		return "Website under maintenance maode. Try again later...";
+	}	
 
 }
 
