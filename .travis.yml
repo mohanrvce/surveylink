@@ -5,13 +5,9 @@ jdk: openjdk8
 sudo: false
 
 # before_install: cd src
-
-before_script:
-  - bash <(curl -Ls https://coverage.codacy.com/get.sh) download
   
 script: mvn clean verify 
 
 # publish code coverage after successful build
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - bash <(curl -Ls https://coverage.codacy.com/get.sh)
