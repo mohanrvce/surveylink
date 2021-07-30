@@ -2,6 +2,6 @@ language: java
 
 sudo: false
 
-before_install: cd src
+# before_install: cd src
 
 script: mvn clean verify 
