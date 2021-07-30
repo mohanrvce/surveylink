@@ -15,7 +15,12 @@ public class HomeController {
 	@RequestMapping(value = "/message", method = RequestMethod.GET)
 	public String getMessage() {
 		return "hello, mohan";
-	}	
+	}
+	
+	@RequestMapping(value = "/support", method = RequestMethod.GET)
+	public String getMessage() {
+		return "In progress...";
+	}
 
 }
 
