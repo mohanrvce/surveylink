@@ -7,3 +7,6 @@ sudo: false
 # before_install: cd src
 
 script: mvn clean verify 
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
