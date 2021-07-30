@@ -11,3 +11,4 @@ script: mvn clean verify
 # publish code coverage after successful build
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://coverage.codacy.com/get.sh)
