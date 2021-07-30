@@ -18,8 +18,8 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/support", method = RequestMethod.GET)
-	public String getMessage() {
-		return "In progress...";
+	public String getSupport() {
+		return "Website under contruction...";
 	}
 
 }
