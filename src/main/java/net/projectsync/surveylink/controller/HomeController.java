@@ -23,7 +23,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
-	public String getSupport() {
+	public String contact() {
 		return "Website under maintenance maode. Try again later...";
 	}	
 
