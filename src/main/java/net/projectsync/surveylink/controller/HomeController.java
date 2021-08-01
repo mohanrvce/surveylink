@@ -17,14 +17,9 @@ public class HomeController {
 		return "Website under contruction...";
 	}
 	
-	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
-	public String heroku() {
-		return "App deployed on heroku...";
-	}
-	
 	@RequestMapping(value = "/secret", method = RequestMethod.GET)
-	public String getSecret() {
-		return "hello, mohan kumar";
+	public String getSecretMessage() {
+		return "mohan";
 	}	
 }
 
