@@ -12,25 +12,9 @@ public class HomeController {
 		return "hello, world";
 	}
 	
-	@RequestMapping(value = "/message", method = RequestMethod.GET)
-	public String getMessage() {
-		return "hello, mohan";
-	}
-	
-	@RequestMapping(value = "/support", method = RequestMethod.GET)
+	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
 	public String getSupport() {
 		return "Website under contruction...";
-	}
-	
-	@RequestMapping(value = "/contact", method = RequestMethod.GET)
-	public String contact() {
-		return "Website under maintenance mode. Try again later...";
 	}	
-	
-	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
-	public String heroku() {
-		return "Heroku deployment";
-	}	
-	
 }
 
