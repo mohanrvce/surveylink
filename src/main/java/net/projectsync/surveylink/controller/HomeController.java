@@ -29,7 +29,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
 	public String heroku() {
-		return "heroku website under maintenance mode. Try again later...";
+		return "welcome to Heroku";
 	}	
 	
 }
