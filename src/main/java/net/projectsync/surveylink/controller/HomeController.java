@@ -29,7 +29,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
 	public String heroku() {
-		return "welcome to Heroku";
+		return "Heroku deployment";
 	}	
 	
 }
