@@ -22,8 +22,8 @@ public class HomeController {
 		return "App deployed on heroku...";
 	}
 	
-	@RequestMapping(value = "/mohan", method = RequestMethod.GET)
-	public String mohan() {
+	@RequestMapping(value = "/secret", method = RequestMethod.GET)
+	public String getSecret() {
 		return "hello, mohan";
 	}	
 }
