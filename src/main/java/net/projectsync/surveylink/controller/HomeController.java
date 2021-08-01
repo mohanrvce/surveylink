@@ -20,6 +20,11 @@ public class HomeController {
 	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
 	public String heroku() {
 		return "App deployed on heroku...";
+	}
+	
+	@RequestMapping(value = "/mohan", method = RequestMethod.GET)
+	public String mohan() {
+		return "hello, mohan";
 	}	
 }
 
