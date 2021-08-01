@@ -12,14 +12,9 @@ public class HomeController {
 		return "hello, world";
 	}
 	
-	@RequestMapping(value = "/support", method = RequestMethod.GET)
-	public String getSupport() {
-		return "Website under contruction...";
-	}
-	
 	@RequestMapping(value = "/secret", method = RequestMethod.GET)
 	public String getSecretMessage() {
-		return "mohan";
+		return "test";
 	}	
 }
 
