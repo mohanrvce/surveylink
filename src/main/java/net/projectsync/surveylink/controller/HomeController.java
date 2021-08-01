@@ -12,9 +12,14 @@ public class HomeController {
 		return "hello, world";
 	}
 	
-	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
+	@RequestMapping(value = "/support", method = RequestMethod.GET)
 	public String getSupport() {
 		return "Website under contruction...";
+	}
+	
+	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
+	public String heroku() {
+		return "App deployed on heroku...";
 	}	
 }
 
