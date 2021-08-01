@@ -2,4 +2,3 @@
 
 # surveylink
 source code
-https://replit.com/
