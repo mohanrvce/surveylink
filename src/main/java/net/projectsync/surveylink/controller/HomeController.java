@@ -19,7 +19,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/secret", method = RequestMethod.GET)
 	public String getSecretMessage() {
-		return "mohan";
+		return "cool";
 	}	
 }
 
