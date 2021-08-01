@@ -26,8 +26,6 @@ public class HomeController {
 	public String contact() {
 		return "Website under maintenance maode. Try again later...";
 	}
-
-	// test onemore time
-
+	
 }
 
