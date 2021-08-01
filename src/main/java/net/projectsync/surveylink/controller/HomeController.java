@@ -24,7 +24,12 @@ public class HomeController {
 	
 	@RequestMapping(value = "/contact", method = RequestMethod.GET)
 	public String contact() {
-		return "Website under maintenance maode. Try again later...";
+		return "Website under maintenance mode. Try again later...";
+	}	
+	
+	@RequestMapping(value = "/heroku", method = RequestMethod.GET)
+	public String heroku() {
+		return "heroku website under maintenance mode. Try again later...";
 	}	
 	
 }
