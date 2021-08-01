@@ -24,7 +24,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/secret", method = RequestMethod.GET)
 	public String getSecret() {
-		return "hello, mohan";
+		return "hello, mohan kumar";
 	}	
 }
 
