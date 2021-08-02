@@ -25,7 +25,7 @@ public class HomeController {
 		int num = (int) employeeRepo.count() + 1;
 		Employee employee = new Employee("mohan " + num);
 		employeeRepo.save(employee);
-		return "mohan " + num;
+		return "added new employee: mohan " + num;
 	}
 
 	@RequestMapping(value = "/get-employees", method = RequestMethod.GET)
